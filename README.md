@@ -1,2 +1,2 @@
 # math-adventures-with-python
-Different applications of Math using Python based on the text book by Peter Farrell (No Starch Press).
+Following exercises and different applications in text book called "Math Adventures With Python (2019)" by Peter Farrell, No Starch Press, ISBN-10: 1-59327-867-5
