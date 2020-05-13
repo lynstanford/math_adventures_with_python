@@ -31,7 +31,7 @@ for t in turtles:
     t.pd()
 
 def branch(turt, branch_len, angle):
-    angle = randint(3,2)
+    angle = randint(18,28)
     sf = uniform(0.6,0.8)
     size = branch_len/10
     turt.pensize(size)
@@ -48,4 +48,4 @@ def branch(turt, branch_len, angle):
 
 for t in turtles:
     branch(t,100,22)
-t.done()
+done()

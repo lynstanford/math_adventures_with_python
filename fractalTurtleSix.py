@@ -15,19 +15,18 @@ from random import *
 t1 = Turtle()                                           # create turtle objects
 t2 = Turtle()
 t3 = Turtle()
-t4 = Turtle()
-t5 = Turtle()
 
-x = -400
-y = -400
-turtles = [t1,t2,t3,t4,t5]
+x = -100
+y = -100
+
+turtles = [t1,t2,t3]
 for t in turtles:
     t.speed(100)
     t.left(90)
+    t.screen.bgcolor('coral')
     t.color('turquoise')
-    t.bg('orange')
     t.pu()
-    x += randint(80,160)
+    x += randint(180,960)
     y += randint(45,170)
     t.goto(x, randint(-100,100))
     t.goto(y, randint(-100,20))
@@ -54,3 +53,4 @@ def branch(turt, branch_len):
 
 for t in turtles:
     branch(t,80)
+    
