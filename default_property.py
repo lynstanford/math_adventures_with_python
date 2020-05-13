@@ -1,8 +1,11 @@
 from turtle import *
-import turtle as turtle
 
 def square(sidelength=100):
-    turtle.square(50)
-    turtle.square(30)
-    turtle.square()
-    turtle.done()
+    for i in range(4):
+        forward(sidelength)
+        right(90)
+        
+square(50)
+square(30)
+square()
+
