@@ -17,8 +17,8 @@ turtle.shape('turtle')
 turtle.speed('fastest')
 
 if answer:
-    turtle.bgcolor('turquoise')
-    turtle.color('white')
+    turtle.bgcolor('black')
+    turtle.color('red')
 
     for repetition in range(60):  # unused variable
         square()

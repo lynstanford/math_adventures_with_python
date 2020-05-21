@@ -7,8 +7,8 @@ speed(15)
 # First you need to define a loop function to draw a square
 def square():
     for i in range(4):
-        t.color('white')
-        t.bgcolor('turquoise')
+        t.color('red')
+        t.bgcolor('black')
         t.forward(150)
         t.right(90)
 
