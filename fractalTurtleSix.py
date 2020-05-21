@@ -21,13 +21,13 @@ y = -100
 
 turtles = [t1,t2,t3]
 for t in turtles:
-    t.speed(100)
+    t.speed('fastest')
     t.left(90)
     t.screen.bgcolor('coral')
     t.color('turquoise')
     t.pu()
     x += randint(180,960)
-    y += randint(45,170)
+    y += randint(5,70)
     t.goto(x, randint(-100,100))
     t.goto(y, randint(-100,20))
     t.pd()
