@@ -35,7 +35,7 @@ for t in turtles:
 def branch(turt, branch_len):
     angle = randint(20,35)
     sf = uniform(0.6,0.8)                               # Shrink Factor
-    size = int(branch_len /13)
+    size = int(branch_len /10)
     turt.pensize(size)
     if branch_len < 20:
         turt.color('darkturquoise')
