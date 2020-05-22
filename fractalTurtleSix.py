@@ -1,6 +1,6 @@
 #-------------------------------------------------------------------------------
 # Name:        module1
-# Purpose:
+# Purpose:     Supposed to be Japanese Cherry Trees
 #
 # Author:      lynst
 #
@@ -23,8 +23,8 @@ turtles = [t1,t2,t3]
 for t in turtles:
     t.speed('fastest')
     t.left(90)
-    t.screen.bgcolor('coral')
-    t.color('turquoise')
+    t.screen.bgcolor('black')
+    t.color('brown')
     t.pu()
     x += randint(10,1000)
     y += randint(5,70)
@@ -37,10 +37,14 @@ def branch(turt, branch_len):
     sf = uniform(0.6,0.8)                               # Shrink Factor
     size = int(branch_len /10)
     turt.pensize(size)
-    if branch_len < 20:
-        turt.color('darkturquoise')
+    if branch_len < 30: 
+        turt.color('white')
         turt.stamp()
-        turt.color('aqua')
+        turt.color('brown')
+    if branch_len < 20:
+        turt.color('lightpink')
+        turt.stamp()
+        turt.color('brown')
     if branch_len > 10:
         turt.forward(branch_len)
         turt.left(angle)
