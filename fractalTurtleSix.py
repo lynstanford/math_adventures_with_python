@@ -26,17 +26,16 @@ for t in turtles:
     t.screen.bgcolor('coral')
     t.color('turquoise')
     t.pu()
-    x += randint(180,960)
+    x += randint(10,1000)
     y += randint(5,70)
     t.goto(x, randint(-100,100))
-    t.goto(y, randint(-100,20))
+    t.goto(y, randint(-100,0))
     t.pd()
-
 
 def branch(turt, branch_len):
     angle = randint(20,35)
     sf = uniform(0.6,0.8)                               # Shrink Factor
-    size = int(branch_len /10)
+    size = int(branch_len /13)
     turt.pensize(size)
     if branch_len < 20:
         turt.color('darkturquoise')
